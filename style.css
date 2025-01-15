@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(ramdom\ fill.jpg);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(238, 238, 154);
+}
+
+.question {
+  margin: 25px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+button {
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 2px solid white;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 3px #706e6e;
+}
+
+button:nth-child(1) {
+  margin-left: -200px;
+  background: #fefefe;
+}
+
+button:nth-child(2) {
+  margin-right: -200px;
+}
+
+.yes-btn {
+  width: 50px;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: rgb(119, 237, 147);
+}
+
+.no-btn {
+  width: 50px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: rgb(255, 46, 35);
+  color: #fff;
+}
